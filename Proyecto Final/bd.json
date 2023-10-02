@@ -1,0 +1,133 @@
+{
+  "Libros": [
+    {
+      "titulo": "Game of Thrones 👑",
+      "Autor": "George R. R. Martin",
+      "Estado": "Alquilado",
+      "id": 3
+    },
+    {
+      "titulo": "El libro de la selva 🐒",
+      "Autor": "Rudyard Kipling",
+      "Estado": "Disponible",
+      "id": 4
+    },
+    {
+      "titulo": "Harry Potter 🔮",
+      "Autor": "J.K. Rowlin",
+      "Estado": "Disponible",
+      "id": 5
+    },
+    {
+      "titulo": "IT 🎈",
+      "Autor": "Stephen King",
+      "Estado": "Disponible",
+      "id": 6
+    },
+    {
+      "titulo": " Gorila BOOK 🦍",
+      "Autor": " Luchito",
+      "Estado": "Disponible",
+      "id": 7
+    },
+    {
+      "titulo": "Age of Empires 🏹",
+      "Autor": "Agustin Araujo",
+      "Estado": "Disponible",
+      "id": 8
+    },
+    {
+      "titulo": "El Libro Negro Del Programador 🚫",
+      "Autor": "Rafael Gómez Blanes",
+      "Estado": "Disponible",
+      "id": 9
+    },
+    {
+      "titulo": "El Libro Secreto De Merlin 🧿",
+      "Autor": "Alberto Lajas II",
+      "Estado": "Alquilado",
+      "id": 10
+    }
+  ],
+  "Alumnos": [
+    {
+      "Nombre": "Jose Agustin",
+      "Apellido": "Araujo",
+      "Documento": "43850295",
+      "Contacto": "3816155940",
+      "id": 1
+    },
+    {
+      "Nombre": "Maximiliano",
+      "Apellido": "Zeballos",
+      "Documento": "4",
+      "Contacto": "3815223366",
+      "id": 2
+    },
+    {
+      "Nombre": "Luciano Salvador",
+      "Apellido": "Azalot",
+      "Documento": "43706445",
+      "Contacto": "3814755049",
+      "id": 4
+    },
+    {
+      "Nombre": "Nicolas",
+      "Apellido": "Lucero del Llanos",
+      "Documento": "43431255",
+      "Contacto": "3815903793",
+      "id": 5
+    },
+    {
+      "Nombre": "Luis Agustin",
+      "Apellido": "Argañaraz",
+      "Documento": "38117980",
+      "Contacto": "3816130131",
+      "id": 6
+    }
+  ],
+  "Prestamo": [
+    {
+      "id": 1,
+      "LibrosID": 1,
+      "AlumnosID": 1,
+      "FechaPrestamo": "31/10/2022"
+    },
+    {
+      "AlumnosDNI": "43850295",
+      "LibrosID": "9",
+      "FechaPrestamo": "2022-11-02",
+      "id": 2
+    },
+    {
+      "AlumnosDNI": "4",
+      "LibrosID": "4",
+      "FechaPrestamo": "2022-11-08",
+      "id": 3
+    },
+    {
+      "AlumnosDNI": "43850295",
+      "LibrosID": "6",
+      "FechaPrestamo": "2022-11-09",
+      "id": 4
+    },
+    {
+      "AlumnosDNI": "43850295",
+      "LibrosID": "4",
+      "FechaPrestamo": "2022-11-09",
+      "id": 5
+    },
+    {
+      "AlumnosDNI": "43850295",
+      "LibrosID": "4",
+      "FechaPrestamo": "2022-11-09",
+      "id": 6
+    },
+    {
+      "AlumnosDNI": "43850295",
+      "LibrosID": "9",
+      "FechaPrestamo": "2022-11-15",
+      "id": 7
+    }
+  ]
+}

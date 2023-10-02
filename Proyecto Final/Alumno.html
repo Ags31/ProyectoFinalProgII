@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/lib4ro.png"/>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="JS/appA.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Alumnos</title>
+
+</head>
+<body>
+    <div class="Container">
+      <div class="header">
+        <img id="icono" src="img/logo.png" alt="">
+        <div class="OPC">
+        <div class="boton"><button class="btn btn-primary "><a class="a" href="Prestamos.html">Prestamos</a></button></div>
+        <div class="boton"><button class="btn btn-primary"><a class="a" href="Alumno.html">Alumnos</a></button></div>
+        <div class="boton"><button class="btn btn-primary"><a class="a" href="Libro.html">Libros</a></button></div>
+    </div>
+    </div>
+
+          <div class="Contenido">
+            <hr>
+            <input type="text" id="Nombre" placeholder="Nombre">
+            <input type="text" id="Apellido" placeholder="Apellido">
+            <input type="text" id="Documento" placeholder="Documento">
+            <input type="text" id="Contacto" placeholder="Contacto">
+            <button id="GA" onclick="guardarA()">Guardar</button>
+            <button id="AA" onclick="ActualizarA()" hidden="true">Actualizar Alumno</button>
+            <button id="CEA" onclick="CancelarA()" hidden="true"> ❌ </button>
+            <hr>
+            <div id="listA"></div>
+          </div>
+</body>
+</html>

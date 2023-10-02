@@ -1,0 +1,3 @@
+El programa que voy a subir no es el terminado a full, sino el presentado en la facultad el dia 15/11/2022
+Donde se me solicitó generar un prestamo con los datos : DNI del alumno, id del Libro, fecha y ID del prestamo
+Esto mediante una validacion de alumno existente, un boton para seleccionar libros y que alerte si se encuentra alquilado y una tabla con la fecha a elegir

@@ -1,0 +1,135 @@
+body
+{
+    padding-top: 20px;
+    background-color: bisque;
+}
+
+.Container
+{
+    /* border: 2px black solid; */
+    height: 800px auto;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgba(201, 166, 102, 0.767);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap  
+}
+
+.header
+{
+    /* border-bottom: 2px black solid; */
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Contenido
+{
+    padding: 5px;
+}
+
+#icono
+{
+    width: 300px;
+    position: relative;
+}
+
+.main
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#s
+{
+    position: absolute;
+    top: 725px;
+}
+
+#ss
+{
+    position: absolute;
+    top: 650px;
+}
+
+.textbox
+{
+    width: 230px;
+    height: 40px;
+}
+
+#guardar
+{
+    width: fit-content;
+    padding: 6px;
+    margin-top: 10px;
+    position: absolute;
+    top: 725px;
+}
+
+#mssg
+{
+    margin-top: 10px;
+}
+
+p#texto{
+	text-align: center;
+	color:white;
+}
+
+.a
+{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.boton 
+{
+    margin: 5px;
+}
+
+.OPC
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+    position: float;
+    /* border: 2px black solid; */
+}
+
+.Divisor
+{
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: row;
+}
+
+.right
+{
+    margin: 0 auto;
+    /* border: 2px black solid; */
+}  
+
+.left
+{
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    /* border: 2px rgb(27, 252, 6) solid; */
+}

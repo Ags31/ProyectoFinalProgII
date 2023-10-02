@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/lib4ro.png"/>
+    <title>Libros</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="JS/appL.js" defer></script>
+</head>
+
+<body>
+
+    <div class="Container">
+
+      <div class="header">
+        <img id="icono" src="img/logo.png" alt="">
+        <div class="OPC">
+        <div class="boton"><button class="btn btn-primary "><a class="a" href="Prestamos.html">Prestamos</a></button></div>
+        <div class="boton"><button class="btn btn-primary"><a class="a" href="Alumno.html">Alumnos</a></button></div>
+        <div class="boton"><button class="btn btn-primary"><a class="a" href="Libro.html">Libros</a></button></div>
+        </div>
+        </div>
+
+          <div class="Contenido">
+            <hr>
+            <input type="text" id="title" placeholder="Titulo">
+            <input type="text" id="autor" placeholder="Autor">
+        
+            Estado: <select name="estado" id="estado">
+              <option value="Disponible">Disponible</option>
+              <option value="Perdido">Perdido</option>
+              <option value="Deteriorado">Deteriorado</option>
+              <option value="Alquilado">Alquilado</option>
+              </select>
+
+            <button id="GL" onclick="guardarL()">Guardar</button>
+            <button id="AL" onclick="Actualizar()" hidden="true">Actualizar Libro</button>
+            <button id="CEL" onclick="Cancelar()" hidden="true">❌</button>
+            <hr>
+            <div id="listL"></div>
+          </div>
+    </div>
+</body>
+</html>
